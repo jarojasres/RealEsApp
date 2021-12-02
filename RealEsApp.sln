@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\Core\Core.csproj", "{F0C56C66-E428-4ED6-870A-5E49690F5FB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{587799BA-A2DF-4AC0-8A6E-5D998A2014F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj", "{6DFD8DBF-8618-4E4C-AF99-A7EEEA117C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0C56C66-E428-4ED6-870A-5E49690F5FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C56C66-E428-4ED6-870A-5E49690F5FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C56C66-E428-4ED6-870A-5E49690F5FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C56C66-E428-4ED6-870A-5E49690F5FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587799BA-A2DF-4AC0-8A6E-5D998A2014F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587799BA-A2DF-4AC0-8A6E-5D998A2014F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587799BA-A2DF-4AC0-8A6E-5D998A2014F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587799BA-A2DF-4AC0-8A6E-5D998A2014F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFD8DBF-8618-4E4C-AF99-A7EEEA117C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFD8DBF-8618-4E4C-AF99-A7EEEA117C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFD8DBF-8618-4E4C-AF99-A7EEEA117C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFD8DBF-8618-4E4C-AF99-A7EEEA117C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B64A678-69A2-4910-86F6-B0735465D45F}
+	EndGlobalSection
+EndGlobal
